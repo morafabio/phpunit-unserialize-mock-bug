@@ -11,7 +11,7 @@ class MyTest extends \PHPUnit_Framework_TestCase
 {
 	public function testMock()
 	{
-		$file = $this->getMockBuilder('Symfony\Component\HttpFoundation\File\File')
+		$file = $this->getMockBuilder('\Symfony\Component\HttpFoundation\File\File')
 			->disableOriginalConstructor()
 			->getMock();
 	}
